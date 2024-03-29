@@ -1,0 +1,43 @@
+body{
+    margin: 10px;
+}
+
+.nav li{
+    color: black;
+    font-weight: bold;
+}
+.nav li:hover {
+    /* background-color: #2f810f;  */
+    border-bottom: 3px solid blue;
+  }
+  
+  .nav li:hover a {
+    color: black;
+  }
+
+  .left_margin{
+    float: right;
+  }
+
+  .top_margin{
+    margin: 15px;
+  }
+
+  .black-top-border{
+    border-top: 1px solid black;
+  }
+
+  .big-blue{
+    color: blue;
+    font-weight: bold;
+    float: left;
+  }
+
+  .mid-blue{
+    color: blue;
+    
+
+  }
+  .light-blue-bg{
+    background-color: rgb(200, 196, 253);
+  }
