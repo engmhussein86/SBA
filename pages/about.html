@@ -13,19 +13,17 @@
 .flex-column li:hover{
     background-color: rgb(212, 212, 212);
     border: none;
+
 }
 
-    .transition img{
-      transition: transform 0.5s ease;
+    .login-form {
+      max-width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-
-    .transition:hover img {
-      
-      transform: scale(0.8); /* Adjust the scale factor as needed */
-      transition: transform 0.5s ease;
- }
-
-
+  
 
 </style>
 
@@ -36,24 +34,24 @@
 
     <div class="container-fluid">           
         <div class="row">
-           <div class=" col-md-4"><a href="#"><img src="./images/perscholas.svg"></a></div>
+           <div class=" col-md-4"><a href="#"><img src="../images/perscholas.svg"></a></div>
            <div class=" col-md-6">
             <ul class="nav">
                 <li class="nav-item" style="border-bottom: 3px solid blue;">
                   <a class="nav-link active" aria-current="page" href="#" style="color: black;">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/courses.html">COURSES</a>
+                  <a class="nav-link" href="./courses.html">COURSES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/login.html">LOGIN</a>
+                  <a class="nav-link" href="./login.html">LOGIN</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/about.html">ABOUT US</a>
+                    <a class="nav-link" href="./about.html">ABOUT US</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/admin.html">DASHBOARD</a>
+                    <a class="nav-link" href="./admin.html">DASHBOARD</a>
                   </li>
                 
               </ul>
@@ -62,54 +60,20 @@
 
            <div class="col-md-2">
             <i class="fas fa-search top_margin"></i>
-            <a href="./pages/signup.html">
-            <button type="button" class="btn btn-primary left_margin">Create Account</button></a>
+
+            <button type="button" class="btn btn-primary left_margin">Create Account</button>
         </div>
 
        
 
         </div>
-        
-        <div class="row transition">
-            <img src="./images/img1.jpg" class="img-fluid black-top-border " style="height: 500px;">
+
+        <div class="row d-flex justify-content-center p-3">
+            <h1>About Per Scholas</h1>
+            <h5>At Per Scholas, we believe a thriving workforce starts with equitable access to education. Learn about Per Scholas and how we provide skills training and access to employer networks to individuals often excluded from tech careers. Per Scholas envisions a technology workforce as diverse as the customers it serves. More than 20,000 graduates have launched successful careers in tech to date through our no-cost technical training. Our mission is to advance economic equity through rigorous training for tech careers and to connect skilled talent to leading businesses.</h5>
         </div>
+        
 
-        <br>
-
-        <div class="row justify-content-center">
-            <div class="col-md-5 card black-top-border light-blue-bg" style="margin: 5px;" >
-                <div class="card-body">
-
-
-<h1><img src="./images/img3.svg"/> Opportunity for Careers in Tech</h1>
-                      <p class="card-text">We work directly with employers, large and small, to design rigorous, boot camp-style courses with an 85% graduation rate. Our tuition-free training combines business professional skills development with hands-on technical instruction for high demand jobs.</p>
-                      <div style="width: 50%; float: right;">
-
-                      <h1 class="big-blue">80%+&nbsp;&nbsp;</h1>
-                      
-                    
-                      <h3 class="mid-blue">of Per Scholas graduates find full-time employment within one year of graduating</h3>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-5 card black-top-border light-blue-bg" style="margin: 5px;">
-                    <div class="card-body">
-
-    
-    <h1><img src="./images/img2.svg">&nbsp;&nbsp;Closing the Tech Skills Divide</h1>
-                          <p class="card-text">We are building a more diverse technical workforce with employers by creating on-ramps for women and people of color, groups staggeringly underrepresented in IT employment today. 85% of our learners are people of color, a third are women, and a third are young adults.</p>
-                          <div style="width: 50%; float: right;">
-    
-                          <h1 class="big-blue">85%&nbsp;&nbsp;</h1>
-                          
-                        
-                          <h3 class="mid-blue">hire of Per Scholas graduates are people of color</h3>
-                        </div>
-                        </div>
-                    </div>
-
-              </div>
         </div>
      </div>
      <hr>
